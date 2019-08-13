@@ -1,0 +1,20 @@
+{
+  "name": "Meross Cloud IoT",
+  "version": "0.01",
+  "slug": "meross_cloud",
+  "description": "A full featured Homeassistant component to drive Meross devices. This component is based on the underlying MerossIot library available",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "before",
+  "boot": "auto",
+  "options": {
+    "logins": [
+      { "username": null, "password": null }
+    ]
+  },
+  "schema": {
+    "logins": [
+      { "username": "str", "password": "str" }
+    ]
+  },
+  "homeassistant_api": true
+}
