@@ -16,5 +16,6 @@
       { "username": "str", "password": "str" }
     ]
   },
-  "homeassistant_api": true
+  "homeassistant_api": true,
+  "image": "hub/{arch}-meross-cloud"
 }
